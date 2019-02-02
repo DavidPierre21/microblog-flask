@@ -4,10 +4,12 @@ url = "https://pypi.org/simple"
 verify_ssl = true
 
 [dev-packages]
+flake8 = "*"
 
 [packages]
 flask = "*"
 python-dotenv = "*"
+flask-wtf = "*"
 
 [requires]
 python_version = "3.6"
